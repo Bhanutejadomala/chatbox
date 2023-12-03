@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbox</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    #chat-box {
+     width: 1000px;
+     height: 500px;
+     overflow-y: scroll;
+     padding: 20px;
+     border:1px solid black;
+    }
+
+    #type {
+      width: 1000px;
+      padding: 10px;
+      display: flex;
+      
+    }
+
+    #text {
+      width: 100%;
+      padding: 8px;
+    }
+
+    button {
+      cursor: pointer;
+      padding: 8px;
+      background-color:green;
+      color: white;
+    }
+  </style>
+  
+</head>
+<body>
+  <div id="chat-box">
+    <p>welcome to the chat</p>
+    
+    <p>you:hii</p>
+    <p>user123:happy december</p>
+    <p>user456:how are you</p>
+    <p>user123:iam fine and great</p>
+    <p>you:sounds good</p>
+  </div>
+  <div id="type">
+    <input type="text" id="text" placeholder="Type your message">
+    <button>Send</button>
+  </div>
+   
+</body>
+</html>
